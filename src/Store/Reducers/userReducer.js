@@ -3,7 +3,45 @@ import { ADD_USER, DELETE_USER, EDIT_USER, UPDATE_USER } from '../types/user';
 let userLocalStorage = JSON.parse(localStorage.getItem('USER'));
 
 if (!userLocalStorage) {
-    userLocalStorage = [];
+    userLocalStorage = [
+
+        {
+            id: '1',
+            username: 'ManHD',
+            fullname: 'Huỳnh Đại Mẫn',
+            email: 'haha@gmail.com',
+            password: 'iiii',
+            phonenumber: '07777777777',
+            type: 'Client',
+        },
+        {
+            id: '2',
+            username: 'HuuHD',
+            fullname: 'Huỳnh Đại Hữu',
+            email: 'hehe@gmail.com',
+            password: '1234545678',
+            phonenumber: '09999999999',
+            type: 'Client',
+        },
+        {
+            id: '3',
+            username: 'ThanhHD',
+            fullname: 'Huỳnh Đại Thanh',
+            email: 'hihi@gmail.com',
+            password: '1234567',
+            phonenumber: '08888888888',
+            type: 'Admin',
+        },
+        {
+            id: '4',
+            username: 'NguyenHD',
+            fullname: 'Huỳnh Đại Nguyên',
+            email: 'hoho@gmail.com',
+            password: '1234567',
+            phonenumber: '02222222222',
+            type: 'Admin',
+        },
+    ];
 }
 
 const DEFAULT_STATE = {
