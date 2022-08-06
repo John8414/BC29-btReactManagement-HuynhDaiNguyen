@@ -11,7 +11,7 @@ if (!userLocalStorage) {
             fullname: 'Huỳnh Đại Mẫn',
             email: 'haha@gmail.com',
             password: 'iiii',
-            phonenumber: '07777777777',
+            phonenumber: '0777777777',
             type: 'Client',
         },
         {
@@ -20,7 +20,7 @@ if (!userLocalStorage) {
             fullname: 'Huỳnh Đại Hữu',
             email: 'hehe@gmail.com',
             password: '1234545678',
-            phonenumber: '09999999999',
+            phonenumber: '0999999999',
             type: 'Client',
         },
         {
@@ -29,7 +29,7 @@ if (!userLocalStorage) {
             fullname: 'Huỳnh Đại Thanh',
             email: 'hihi@gmail.com',
             password: '1234567',
-            phonenumber: '08888888888',
+            phonenumber: '0888888888',
             type: 'Admin',
         },
         {
@@ -38,7 +38,7 @@ if (!userLocalStorage) {
             fullname: 'Huỳnh Đại Nguyên',
             email: 'hoho@gmail.com',
             password: '1234567',
-            phonenumber: '02222222222',
+            phonenumber: '0222222222',
             type: 'Admin',
         },
     ];

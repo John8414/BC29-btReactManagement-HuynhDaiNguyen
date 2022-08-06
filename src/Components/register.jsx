@@ -174,6 +174,7 @@ export default function Register() {
                                     title="Phone Number"
                                     onBlur={handleBlur}
                                     pattern='[0-9]{4}[0-9]{3}[0-9]{3}'
+                                    maxLength={10}
                                     required
                                     value={phonenumber}
                                     name="phonenumber"
